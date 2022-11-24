@@ -1,0 +1,10 @@
+App\Entity\Juguetes:
+  attributes:
+    id:
+      groups: ['juguete']
+    nombre:
+      groups: ['juguete']
+    marca:
+      groups: ['juguete']
+    publicoObjetivo:
+      groups: ['juguete']

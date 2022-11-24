@@ -1,0 +1,8 @@
+App\Entity\PublicoObjetivo:
+  attributes:
+    id:
+      groups: ['p_objetivo', 'juguete']
+    nombre:
+      groups: ['p_objetivo', 'juguete']
+    descripcion:
+      groups: ['p_objetivo', 'juguete']

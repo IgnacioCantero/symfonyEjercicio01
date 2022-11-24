@@ -1,0 +1,6 @@
+App\Entity\Juguetes:
+  properties:
+    nombre:
+      - NotBlank: ~
+    marca:
+      - NotBlank: ~

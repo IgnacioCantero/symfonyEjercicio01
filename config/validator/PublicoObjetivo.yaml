@@ -1,0 +1,18 @@
+App\Entity\PublicoObjetivo:
+  properties:
+    nombre:
+      - NotBlank:
+          message: 'El nombre del público objetivo no puede ser nulo o estar vacío'
+      - Length:
+          min: 2
+          max: 255
+          minMessage: 'El nombre del público objetivo debe contener al menos 2 caracteres'
+          maxMessage: 'El nombre del público objetivo es demasiado largo'
+    descripcion:
+      - NotBlank:
+          message: 'La descripción del público objetivo no puede ser nulo o estar vacío'
+      - Length:
+          min: 2
+          max: 255
+          minMessage: 'La descripción del público objetivo debe contener al menos 2 caracteres'
+          maxMessage: 'La descripción del público objetivo es demasiado largo'
